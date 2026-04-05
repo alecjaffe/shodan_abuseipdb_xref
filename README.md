@@ -13,7 +13,7 @@ It takes a Shodan query, paginates through the results to extract the IPs, and c
 ## Setup
 
 1. Get API keys for [Shodan](https://account.shodan.io/) and [AbuseIPDB](https://www.abuseipdb.com/).
-2. Open `ShodanCheck.ps1` and add your keys to the config block:
+2. Open `shodan_abuseipdb_xref.ps1` and add your keys to the config block:
    ```powershell
    $ShodanApiKey = "YOUR_SHODAN_API_KEY_HERE"
    $AbuseIPDBApiKey = "YOUR_ABUSEIPDB_API_KEY_HERE"
