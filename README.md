@@ -18,7 +18,7 @@ It takes a Shodan query, paginates through the results to extract the IPs, and c
    $ShodanApiKey = "YOUR_SHODAN_API_KEY_HERE"
    $AbuseIPDBApiKey = "YOUR_ABUSEIPDB_API_KEY_HERE"
    ```
-3. *(Optional)* Update the `$ShodanQuery` or `$MaxAgeDays` variables to fit your needs.
+3. Update the `$ShodanQuery` or `$MaxAgeDays` variables to fit your needs.
 
 ## Usage
 
